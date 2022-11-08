@@ -26,7 +26,7 @@ while (guess != x)
     Console.ReadLine(); 
 }
 
-table();
+test();
 
 void table()
 {
