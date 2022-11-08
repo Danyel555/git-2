@@ -1,6 +1,6 @@
 Random RandomClass = new Random();
 int x = RandomClass.Next(1, 100);
-Console.WriteLine("I am thinking of a number between 1-100. Can you guess what it is?");
+Console.WriteLine("Число от 1 до 100, угадай какое?");
 int guess = 0;
 while (guess != x)
 {
