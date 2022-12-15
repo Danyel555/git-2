@@ -11,22 +11,22 @@ while (true)
     switch (fag)
     {
         case 1:
-            Random r = new Random();
-            int rn = r.Next(0, 100);
+            Random g = new Random();
+            int hk = g.Next(0, 100);
             while (true)
             {
                 Console.WriteLine("Введите число: ");
                 string t = Console.ReadLine();
                 int mn = Convert.ToInt32(t);
-                if (rn > mn)
+                if (hk > cb)
                 {
                     Console.WriteLine("Больше");
                 }
-                if (rn < mn)
+                if (hk < cb)
                 {
                     Console.WriteLine("Меньше");
                 }
-                if (rn == mn)
+                if (hk == cb)
                 {
                     Console.WriteLine("Вы выиграли!");
                     break;
